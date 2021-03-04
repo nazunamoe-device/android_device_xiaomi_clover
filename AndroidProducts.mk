@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI PAD 4 lineage-OS device config
+# inherit MI PAD 4 kangos device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_clover.mk
+    $(LOCAL_DIR)/kangos_clover.mk
 
 COMMON_LUNCH_CHOICES := \
-		lineage_clover-eng \
-		lineage_clover-userdebug \
-		lineage_clover-user
+		kangos_clover-eng \
+		kangos_clover-userdebug \
+		kangos_clover-user
